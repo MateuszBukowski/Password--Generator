@@ -1,9 +1,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1></h1>
+        <h1>Generate a</h1>
+        <h1 id="h1-green">random password</h1>
+        <h3>Never use an insecure password again.</h3>
+        <div id="formFields">
+            <button onclick="startGenerator()">Generate passwords</button>
+            <hr>
+            <div id="inputFields">
+                <input type="text" name="firstField" id="firstInput">
+                <input type="text" name="secondField" id="secondInput">
+            </div>
+        </form>
         <script src="index.js"></script>
     </body>
 </html>
